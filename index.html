@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Bike</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="path"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="thumbnail">
+            <li><img src="./images/bike 1.jpeg" onclick="big('images/bike 1.jpeg');path('#f43');bg('white')"></li>
+            <li><img src="./images/bike 2.jpeg" onclick="big('images/bike 2.jpeg');path('#fff');bg('red')"></li>
+            <li><img src="./images/bike 3.jpeg" onclick="big('images/bike 3.jpeg');path('#f43');bg('white')"></li>
+        </div>
+        <div class="big-img">
+            <img src="./images/bike 3.jpeg" class="big">
+        </div>
+        <div class="content">
+            <p>&#x1F525;Let's ride&#x1F525;</p><br>
+            <h1>Don't fear dying <br>&nbsp;&nbsp;fear not living</h1><br><br>
+            <h5>&#x1F60E;For bike lovers & bike riders&#x1F49D;</h5>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+</html>
